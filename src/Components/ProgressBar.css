@@ -1,0 +1,38 @@
+.progress {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.node {
+  height: 16px;
+  width: 16px;
+  border-radius: 100%;
+  background-color: rgba(92, 184, 92, 1);
+}
+
+.bar {
+  margin-top: -16px;
+  height: 100%;
+  width: 2px;
+  background-color: rgba(92, 184, 92, 1);
+  z-index: -1;
+}
+
+.completed {
+  background-color: rgba(92, 184, 92, 1);
+}
+
+.incomplete {
+  background-color: rgba(201, 201, 201, 1);
+}
+
+.active {
+  border: 1px solid rgba(92, 184, 92, 1);
+  background-color: white;
+}
+
+.barActive {
+  border: 0;
+  background-color: rgba(201, 201, 201, 1);
+}

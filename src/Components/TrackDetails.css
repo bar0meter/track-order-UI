@@ -1,0 +1,28 @@
+.trackDetails {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.date {
+  font-size: 18px;
+  font-weight: bold;
+  color: grey;
+}
+.heading {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.marginHeading {
+  margin-top: 10px;
+}
+
+.content {
+  display: block;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.incompleteText {
+  color: rgba(201, 201, 201, 1);
+}
