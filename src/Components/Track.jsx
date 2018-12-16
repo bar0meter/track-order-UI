@@ -16,7 +16,8 @@ class Track extends React.Component {
             cars: [
               "2010 White Alto LXI",
               "2011 White Alto LXI",
-              "2012 White Alto LXI"
+              "2012 White Alto LXI",
+              "Audi A7"
             ],
             documents: []
           },
