@@ -28,7 +28,7 @@ class TrackDetails extends React.Component {
     const { showCars, showDocuments } = this.state;
     let headingClass = date !== "" ? "heading marginHeading" : "heading";
     headingClass =
-      this.props.status !== "completed"
+      this.props.status === "incomplete"
         ? headingClass + " incompleteText"
         : headingClass;
 
@@ -70,7 +70,7 @@ class TrackDetails extends React.Component {
         documentList = (
           <span
             className={
-              this.props.status === "completed" ? "" : "incompleteText"
+              this.props.status !== "incomplete" ? "" : "incompleteText"
             }
           >
             {documentList.slice(0, documentList.length - 2) + ". "}
@@ -79,7 +79,7 @@ class TrackDetails extends React.Component {
               type="button"
               onClick={this.handleDocumentList}
               className={
-                this.props.status === "completed" ? "" : "incompleteText"
+                this.props.status !== "incomplete" ? "" : "incompleteText"
               }
             >
               Hide
@@ -94,7 +94,7 @@ class TrackDetails extends React.Component {
               type="button"
               onClick={this.handleDocumentList}
               className={
-                this.props.status === "completed" ? "" : "incompleteText"
+                this.props.status !== "incomplete" ? "" : "incompleteText"
               }
             >
               Show Documents

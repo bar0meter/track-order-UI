@@ -40,7 +40,7 @@ class Track extends React.Component {
             cars: [],
             documents: []
           },
-          status: "complete"
+          status: "completed"
         },
         {
           info: {
