@@ -26,3 +26,7 @@
 .incompleteText {
   color: rgba(201, 201, 201, 1);
 }
+
+span a {
+  color: blue;
+}
